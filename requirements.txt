@@ -1,0 +1,7 @@
+apache-airflow-providers-amazon>=8.10.0
+boto3
+pandas
+joblib
+scikit-learn
+sagemaker
+xgboost
