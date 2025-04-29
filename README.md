@@ -1,5 +1,11 @@
 # Credit Default Prediction - End-to-End MLOps Pipeline (MSEC Industries)
 
+## 🎯 Project Scope Clarification
+
+This project focuses on building a robust end-to-end MLOps pipeline, rather than producing a fully optimized or production-ready machine learning model. The pipeline showcases how key components—data ingestion, preprocessing, training, evaluation, and quality gating—can be automated and orchestrated using Airflow, Lambda, and SageMaker.
+
+Advanced ML practices such as hyperparameter tuning, cross-validation, and train/validation/test splits are not yet implemented, and the current evaluation is based solely on training accuracy. Similarly, while the design anticipates integration with a feature store and deployment to a SageMaker endpoint, these components are not yet included. The primary objective is to demonstrate the pipeline's structure, automation, and extensibility.
+
 ## 🛠️ Project Overview
 
 Built a complete end-to-end Machine Learning pipeline using **Apache Airflow**, **AWS Lambda**, **SageMaker**, and **S3**, designed for retraining, evaluation, and deployment control of an XGBoost model predicting credit card default risk.
