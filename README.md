@@ -8,7 +8,7 @@ Advanced ML practices such as hyperparameter tuning, cross-validation, and train
 
 ## 🛠️ Project Overview
 
-Built a complete end-to-end Machine Learning pipeline using **Apache Airflow**, **AWS Lambda**, **SageMaker**, and **S3**, designed for retraining, evaluation, and deployment control of an XGBoost model predicting credit card default risk.
+Built an end-to-end Machine Learning pipeline using **Apache Airflow**, **AWS Lambda**, **SageMaker**, and **S3**, designed for retraining, evaluation, and deployment control of an XGBoost model predicting credit card default risk.
 
 The pipeline enforces **model quality gates**, ensuring only models that meet a minimum performance threshold are eligible for deployment.
 
