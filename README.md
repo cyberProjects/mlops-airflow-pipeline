@@ -6,6 +6,8 @@ This project focuses on building a robust end-to-end MLOps pipeline, rather than
 
 Advanced ML practices such as hyperparameter tuning, cross-validation, and train/validation/test splits are not yet implemented, and the current evaluation is based solely on training accuracy. Similarly, while the design anticipates integration with a feature store and deployment to a SageMaker endpoint, these components are not yet included. The primary objective is to demonstrate the pipeline's structure, automation, and extensibility.
 
+---
+
 ## 🛠️ Project Overview
 
 Built an end-to-end Machine Learning pipeline using **Apache Airflow**, **AWS Lambda**, **SageMaker**, and **S3**, designed for retraining, evaluation, and deployment control of an XGBoost model predicting credit card default risk.
